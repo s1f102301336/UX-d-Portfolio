@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+
+    <link rel="stylesheet" href="../css/index.css" />
+    <link rel="stylesheet" href="../css/slide.css" />
+    <title>My Portfolio</title>
+  </head>
+  <body>
+    <div class="header">
+      <!-- ハンバーガーメニュー -->
+    </div>
+    <div id="slideshow-container">
+      <div id="slideshow">
+        <img src="../img/Solt.jpg" alt="Design1" class="slide" />
+        <img src="../img/UX-1-1.png" alt="Design2" class="slide" />
+        <img src="../img/UX-1-2.png" alt="Design3" class="slide" />
+        <img src="../img/INICook.png" alt="Programming1" class="slide" />
+        <img src="../img/Rekipura.png" alt="Programming2" class="slide" />
+      </div>
+      <!-- 黒透過フィルター -->
+      <div class="overlay"></div>
+      <!-- 固定表示する文字 -->
+      <div class="text-overlay">
+        <div class="name mt-2">
+          <h1>Kazuto</h1>
+          <h1>Yoda</h1>
+        </div>
+        <div class="job">
+          <h1>Programer</h1>
+          <h1>&</h1>
+          <h1>Designer</h1>
+        </div>
+      </div>
+    </div>
+    <div class="works py-5">
+      <div class="p-3 p-md-5">
+        <div class="works_title ps-3">Works</div>
+      </div>
+      <hr />
+      <div class="pt-3 px-3 pb-2 pt-md-5 px-md-5 pb-md-3">
+        <div class="design_title pe-3">Design</div>
+      </div>
+      <div class="d_works mx-5 mb-5 row">
+        <div class="col-12 col-md-6 px-5 pb-5">
+          <a class="card shadow content" href="../templates/design1.html">
+            <img
+              src="../img/UX-1-1.png"
+              alt="UX演習1課題1"
+              class="card-img-top content-img"
+            />
+            <div class="card-body content-text">世界の窓</div>
+          </a>
+        </div>
+        <div class="col-12 col-md-6 px-5 pb-5">
+          <a class="card shadow content" href="../templates/design2.html">
+            <img
+              src="../img/UX-1-2.png"
+              alt="UX演習1課題2"
+              class="card-img-top content-img"
+            />
+            <div class="card-body content-text">メモリーテイスト</div>
+          </a>
+        </div>
+      </div>
+      <div class="pt-3 px-3 pb-2 pt-md-5 px-md-5 pb-md-3">
+        <div class="programming_title ps-3">Programming</div>
+      </div>
+      <div class="p_works mx-5 mb-5 row">
+        <div class="col-12 col-md-6 px-5 pb-5">
+          <a class="card shadow content" href="../templates/programming1.html">
+            <img
+              src="../img/INICook.png"
+              alt="INICook"
+              class="card-img-top content-img"
+            />
+            <div class="card-body content-text">INICook</div>
+          </a>
+        </div>
+        <div class="col-12 col-md-6 px-5 pb-5">
+          <a class="card shadow content" href="../templates/programming2.html">
+            <img
+              src="../img/Rekipura.png"
+              alt="Rekipura"
+              class="card-img-top content-img"
+            />
+            <div class="card-body content-text">れきぷら</div>
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="skills mb-5">
+      <div class="skills_title ps-3">My Skills</div>
+      <div class="skil_blocks mx-5 px-5">
+        <div class="skils mx-5 px-md-5 row design-skill mb-5">
+          <div class="col-6 p-4 d-sm-flex justify-content-center">
+            <div class="skill card">
+              <img
+                src="../img/Blender.png"
+                alt="Blender"
+                class="skill-img p-1"
+              />
+            </div>
+          </div>
+          <div class="col-6 p-4 d-sm-flex justify-content-center">
+            <div class="skill card">
+              <img src="../img/Figma.png" alt="Figma" class="skill-img" />
+            </div>
+          </div>
+        </div>
+        <div class="skils mx-5 row">
+          <div class="col-6 col-sm-4 col-md-3 p-4">
+            <div class="skill card">
+              <img
+                src="../img/HTML5_Logo_256.png"
+                alt="html"
+                class="skill-img"
+              />
+            </div>
+          </div>
+          <div class="col-6 col-sm-4 col-md-3 p-4">
+            <div class="skill card">
+              <img
+                src="../img/CSS3_logo_and_wordmark.svg.png"
+                alt="CSS"
+                class="skill-img"
+              />
+            </div>
+          </div>
+          <div class="col-6 col-sm-4 col-md-3 p-4">
+            <div class="skill card">
+              <img
+                src="../img/Unofficial_JavaScript_logo_2.svg.png"
+                alt="JS"
+                class="skill-img"
+              />
+            </div>
+          </div>
+          <div class="col-6 col-sm-4 col-md-3 p-4">
+            <div class="skill card">
+              <img
+                src="../img/Typescript_logo_2020.svg.png"
+                alt="TS"
+                class="skill-img"
+              />
+            </div>
+          </div>
+          <div class="col-6 col-sm-4 col-md-3 p-4">
+            <div class="skill card">
+              <img
+                src="../img/python_vertical_logo_icon_168039.webp"
+                alt="Python"
+                class="skill-img"
+              />
+            </div>
+          </div>
+          <div class="col-6 col-sm-4 col-md-3 p-4">
+            <div class="skill card">
+              <img
+                src="../img/C-language.png"
+                alt="C-language"
+                class="skill-img"
+              />
+            </div>
+          </div>
+          <div class="col-6 col-sm-4 col-md-3 p-4">
+            <div class="skill card">
+              <img
+                src="../img/png-transparent-django-plain-logo-icon.png"
+                alt="Django"
+                class="skill-img"
+              />
+            </div>
+          </div>
+          <div class="col-6 col-sm-4 col-md-3 p-4">
+            <div class="skill card">
+              <img
+                src="../img/png-transparent-js-react-js-logo-react-react-native-logos-icon-thumbnail.png"
+                alt="React"
+                class="skill-img"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="profile my-5">
+      <div class="mx-5">
+        <div class="i_title">Introduction</div>
+        <div class="row">
+          <div class="col-4">
+            <div class="my_imgs">
+              <img
+                src="../img/TwitterLogo.jpg"
+                alt="TwitterLogo"
+                class="my_img col-6 my-5"
+              />
+            </div>
+          </div>
+          <div class="col-8">
+            <div class="my_name mt-5 mb-2">依田 和人</div>
+            <div class="my_description row mt-3">
+              <div class="school col-6 col-md-4">
+                <p>所属：</p>
+                <p>東洋大学<br />情報連携学部<br />情報連携学科</p>
+              </div>
+              <div class="license col-6 col-md-4">
+                <p>資格：</p>
+                <p>ITパスポート</p>
+              </div>
+              <div class="enthusiasm col-12 col-md-4">ここに意気込みを書く</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="contact my-5">
+      <div class="c_title d-flex justify-content-center">Contact</div>
+      <div class="form">
+        <a
+          href=""
+          style="text-decoration: none"
+          class="mail col-12 my-5 d-flex justify-content-center"
+        >
+          <p><i class="bi bi-envelope"></i>ご連絡をお待ちしています。</p>
+        </a>
+        <div class="contacts my-5 d-flex justify-content-evenly">
+          <button class="btn btn-info" style="color: white">
+            <i class="bi bi-twitter"></i>Twitter
+          </button>
+          <button class="btn btn-dark">
+            <i class="bi bi-github"></i>Github
+          </button>
+          <button class="btn btn-primary">
+            <i class="bi bi-facebook"></i>Facebook
+          </button>
+        </div>
+      </div>
+    </div>
+    <div class="footer" style="height: 5vw"></div>
+    <script src="../js/slide.js"></script>
+  </body>
+</html>

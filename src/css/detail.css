@@ -1,0 +1,16 @@
+.works_img {
+  border-radius: 5px;
+  width: 100%;
+  height: auto;
+}
+
+.class,
+.method,
+.idea {
+  color: #675b5b;
+  font-size: 4vw;
+  font-weight: 900;
+  border-left: 3px solid #675b5b;
+  padding-left: 2%;
+  margin-bottom: 10%;
+}
