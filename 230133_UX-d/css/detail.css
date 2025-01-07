@@ -1,0 +1,30 @@
+.works_img {
+  border-radius: 5px;
+  width: 100%;
+  height: auto;
+}
+
+.contents_title {
+  color: #675b5b;
+  line-height: 80%;
+  font-size: 6vw;
+  font-weight: 900;
+  border-left: 1vw solid #675b5b;
+}
+
+.title {
+  color: #675b5b;
+  font-size: 2vw;
+  font-weight: 900;
+  border-left: 3px solid #675b5b;
+  padding-left: 2%;
+}
+
+.class,
+.method,
+.idea {
+  margin-bottom: 10%;
+}
+
+.c_p {
+}
